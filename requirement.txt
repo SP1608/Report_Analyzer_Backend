@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pdfplumber
+python-multipart
+requests
+python-dotenv
+PyMuPDF==1.23.0
+python-dotenv==1.0.0
+Flask 3.1.1
+Werkzeug 3.1.3
