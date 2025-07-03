@@ -21,6 +21,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+def root():
+    return {"message": "Backend is working!"}
+    
 @app.post("/upload")
 async def upload_file(file: UploadFile = File(...)):
     try:
